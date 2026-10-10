@@ -470,6 +470,20 @@ img.feature__img {
   overflow: clip;
 }
 
+
+.feature {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 30%);
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+
 /* 
 
 QUALITY WORK ↓
@@ -482,11 +496,7 @@ QUALITY WORK ↓
   align-items: center;
 }
 
-.features {
-  display: flex wrap;
-  flex-wrap: wrap;
-  margin-top: 40px;
-}
+
 
 /* 
 
