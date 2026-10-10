@@ -454,12 +454,15 @@ h2 {
 }
 
 .feature__img--wrapper {
+  width: 66px;
+  height: 66px;
+  min-width: 66px;
   display: flex;
-  padding: 20px;
+  justify-content: center;
+  align-items: center;
   border-width: 1px;
   border-style: solid;
-  border-color: rgba(229, 231, 235);
-  border-image: none;
+  border-color: rgb(226, 232, 240);
   border-radius: 500px;
 }
 
@@ -473,8 +476,8 @@ img.feature__img {
 
 .feature {
   display: flex;
-  align-items: center;
-  width: calc(100% - 30%);
+  width: calc(100% / 3);
+  padding: 32px 24px;
 }
 
 .features {
