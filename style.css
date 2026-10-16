@@ -787,6 +787,23 @@ VALUES ↓
   ry: 2;
 }
 
+#values .section__description, #values .section__imag--wrapper {
+  width: 50%;
+}
+
+#values .section__img {
+  width: 100%;
+}
+
+#values .values__list {
+  display: flex;
+  gap: 24px;
+}
+
+#values .value {
+  width: 50%;
+}
+
 /*
 
 PRICING ↓
@@ -1052,8 +1069,7 @@ MOBILE RESPONSIVENESS ↓
   .steps__description,
   .steps__img--wrapper,
   .values__description,
-  .values__img,
-  .testimonials__description,
+  .values__img, .testimonials__description,
   .testimonials__img {
     width: 100%;
     max-width: 448px;
