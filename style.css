@@ -679,7 +679,7 @@ VALUES ↓
   flex-direction: column;
 }
 
-.values__descripton {
+.values__description {
   padding: 32px 64px 32px 0;
 }
 
@@ -721,7 +721,6 @@ VALUES ↓
 }
 
 .value:nth-of-type(1) {
-  margin-top: 321px;
   margin-right: 32px;
 }
 
@@ -802,6 +801,29 @@ VALUES ↓
 
 #values .value {
   width: 50%;
+}
+
+#values .values__description, #values .values__img {
+  width: 50%;
+}
+
+#values .values__description {
+  padding: 32px 64px 32px 0;
+}
+
+#values .value {
+  margin-top: 32px;
+  margin-right: 0;
+}
+
+#values .value__list {
+  display: flex;
+  gap: 24px;
+}
+
+#values .value {
+  flex: 1;
+  min-width: 0;
 }
 
 /*
