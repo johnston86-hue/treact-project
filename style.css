@@ -192,7 +192,7 @@ nav {
 }
 
 .nav__link--primary:hover {
-  background-color: #5011cc;
+  background-color: rgba(80, 17, 204);
   color: white;
 }
 
@@ -1488,6 +1488,12 @@ MOBILE RESPONSIVENESS ↓
   }
 }
 
+@media (max-width: 1024px) {
+  .nav__links {
+    display:none;
+  }
+}
+
 @media (max-width: 1280px) {
   header .row {
     align-items: flex-end;
@@ -1565,6 +1571,13 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media (max-width: 640px) {
+  .header__email {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+@media (max-width: 640px) {
   .header__email--input {
     position: static;
     padding: 16px 0;
@@ -1620,7 +1633,6 @@ MOBILE RESPONSIVENESS ↓
 
 @media (max-width: 1024px) {
   .features {
-    width: calc(50%);
     max-width: 768px;
   }
 }
